@@ -342,11 +342,23 @@ The project follows a modular React structure.
 CampusRide/
 │
 ├── public/
-│   └── assets/
-│       ├── campus-background.jpg
-│       ├── carpool-illustration.png
-│       ├── student-driver.jpg
-│       └── carpool-drive.jpg
+│   ├── assets/
+│   │   ├── campus-background.jpg
+│   │   ├── carpool-illustration.png
+│   │   ├── student-driver.jpg
+│   │   └── carpool-drive.jpg
+│   │
+│   └── screenshots/
+│       ├── home.png
+│       ├── login.png
+│       ├── register.png
+│       ├── dashboard.png
+│       ├── find-ride.png
+│       ├── offer-ride.png
+│       ├── ride-details.png
+│       ├── my-rides.png
+│       ├── bookings.png
+│       └── profile.png
 │
 ├── src/
 │   ├── components/
@@ -613,61 +625,57 @@ The interface is designed for multiple viewport sizes, including:
 
 ## 📸 Screenshots
 
-Screenshots of the following pages can be added to this section:
+Real application screenshots captured from the live CampusRide platform:
 
-### Home Page
+### 🏠 Home Page
+*Landing page with hero branding, quick search, statistics, and platform benefits.*
 
-```text
-Add screenshot here
-```
+![CampusRide Home Page](public/screenshots/home.png)
 
-### Login Page
+### 🔐 Student Login
+*Secure login interface with persistent authentication and demo credentials.*
 
-```text
-Add screenshot here
-```
+![CampusRide Login](public/screenshots/login.png)
 
-### Student Dashboard
+### 📝 Student Registration
+*Registration interface with college USN, department, and academic year fields.*
 
-```text
-Add screenshot here
-```
+![CampusRide Registration](public/screenshots/register.png)
 
-### Find Ride
+### 📊 Student Dashboard
+*Personalized student portal showing active rides, bookings, ratings, and recent activity.*
 
-```text
-Add screenshot here
-```
+![CampusRide Dashboard](public/screenshots/dashboard.png)
 
-### Offer Ride
+### 🔎 Find a Ride
+*Interactive search and filter panel with price slider, vehicle type, and sorting controls.*
 
-```text
-Add screenshot here
-```
+![CampusRide Find Ride](public/screenshots/find-ride.png)
 
-### Ride Details
+### 🚘 Offer a Ride
+*Comprehensive ride publication form with vehicle specifications, seats, and route details.*
 
-```text
-Add screenshot here
-```
+![CampusRide Offer Ride](public/screenshots/offer-ride.png)
 
-### My Rides
+### 📋 Ride Details & Route Preview
+*Detailed commute view featuring driver profile, vehicle details, route timeline, and one-click join.*
 
-```text
-Add screenshot here
-```
+![CampusRide Ride Details](public/screenshots/ride-details.png)
 
-### Bookings
+### 🚗 My Rides (Driver Management)
+*Driver interface displaying offered rides, booked passenger counts, and ride actions.*
 
-```text
-Add screenshot here
-```
+![CampusRide My Rides](public/screenshots/my-rides.png)
 
-### Student Profile
+### 🎫 Bookings (Passenger View)
+*Passenger interface for managing confirmed bookings and seat cancellations.*
 
-```text
-Add screenshot here
-```
+![CampusRide Bookings](public/screenshots/bookings.png)
+
+### 👤 Student Profile
+*Student profile management with academic details, contact information, and commute statistics.*
+
+![CampusRide Profile](public/screenshots/profile.png)
 
 ---
 
